@@ -20,14 +20,12 @@ public pizza: Pizza;
   constructor() { }
 
   ngOnInit() {
-this.pizza=this.pizzas[0];
-
+    this.pizza=this.pizzas[0];
   }
 
   updatepizza(index:number)
   {
-this.pizza=this.pizzas[index];
-
+    this.pizza=this.pizzas[index];
   }
 
 }

@@ -1,7 +1,7 @@
 <div class="row">
     <div class="list-group col-12">
         <ul>
-            <li *ngFor="let pizza of pizzas"><a click=""  href="#">{{pizza.getName()}}</a></li>
+            <li *ngFor="let pizza of pizzas; let index = index"><a (click)="recupPizza(index)"  href="#">{{pizza.name}}</a></li>
         </ul>   
     </div>
 </div>
